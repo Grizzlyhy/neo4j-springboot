@@ -1,0 +1,140 @@
+# Created at 2022-01-19T17:06:25.420
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2022-01-19T17:06:26.967
+Unexpected IOException with stream: 17:06:26.966 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [E:\last\neo4j+springboot\target\classes\com\liuyuns\hello\LastApplication.class]
+
+
+# Created at 2022-01-19T17:06:27.023
+Unexpected IOException with stream: 17:06:27.022 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.liuyuns.hello.LastApplication for test class com.liuyuns.hello.LastApplicationTests
+
+
+# Created at 2022-01-19T17:06:27.227
+Unexpected IOException with stream: 17:06:27.226 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.liuyuns.hello.LastApplicationTests]: using defaults.
+
+
+# Created at 2022-01-19T17:06:27.229
+Unexpected IOException with stream: 17:06:27.228 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+
+
+# Created at 2022-01-19T17:06:27.262
+Unexpected IOException with stream: 17:06:27.261 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@712625fd, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7bba5817, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@742ff096, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@75437611, org.springframework.test.context.support.DirtiesContextTestExecutionListener@350aac89, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1c5920df, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@17f9d882, org.springframework.test.context.event.EventPublishingTestExecutionListener@79e4c792, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@196a42c3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4c60d6e9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@15043a2f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4a83a74a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1349883, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4b29d1d2]
+
+
+# Created at 2022-01-19T17:06:27.272
+Unexpected IOException with stream: 17:06:27.271 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@68c9133c testClass = LastApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7a35b0f5 testClass = LastApplicationTests, locations = '{}', classes = '{class com.liuyuns.hello.LastApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7fa98a66, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6dc17b83, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@79924b, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@79e2c065, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@7f9a81e8], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+
+
+# Created at 2022-01-19T17:06:27.386
+Unexpected IOException with stream: 17:06:27.385 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+
+# Created at 2022-01-19T17:06:27.827
+Unexpected IOException with stream: 
+
+
+# Created at 2022-01-19T17:06:27.828
+Unexpected IOException with stream:   .   ____          _            __ _ _
+
+
+# Created at 2022-01-19T17:06:27.828
+Unexpected IOException with stream:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+
+
+# Created at 2022-01-19T17:06:27.829
+Unexpected IOException with stream: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+
+
+# Created at 2022-01-19T17:06:27.829
+Unexpected IOException with stream:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+
+
+# Created at 2022-01-19T17:06:27.830
+Unexpected IOException with stream:   '  |____| .__|_| |_|_| |_\__, | / / / /
+
+
+# Created at 2022-01-19T17:06:27.830
+Unexpected IOException with stream:  =========|_|==============|___/=/_/_/_/
+
+
+# Created at 2022-01-19T17:06:27.832
+Unexpected IOException with stream:  :: Spring Boot ::        (v2.3.5.RELEASE)
+
+
+# Created at 2022-01-19T17:06:27.832
+Unexpected IOException with stream: 
+
+
+# Created at 2022-01-19T17:06:27.911
+Unexpected IOException with stream: 2022-01-19 17:06:27.910  INFO 1336 --- [           main] com.liuyuns.hello.LastApplicationTests   : Starting LastApplicationTests on LYP with PID 1336 (started by Administrator in E:\last\neo4j+springboot)
+
+
+# Created at 2022-01-19T17:06:27.913
+Unexpected IOException with stream: 2022-01-19 17:06:27.912  INFO 1336 --- [           main] com.liuyuns.hello.LastApplicationTests   : No active profile set, falling back to default profiles: default
+
+
+# Created at 2022-01-19T17:06:28.830
+Unexpected IOException with stream: 2022-01-19 17:06:28.827  INFO 1336 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Neo4j repositories in DEFAULT mode.
+
+
+# Created at 2022-01-19T17:06:28.950
+Unexpected IOException with stream: 2022-01-19 17:06:28.949  INFO 1336 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110ms. Found 2 Neo4j repository interfaces.
+
+
+# Created at 2022-01-19T17:06:30.696
+Unexpected IOException with stream: 2022-01-19 17:06:30.695  INFO 1336 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+
+
+# Created at 2022-01-19T17:06:31.622
+Unexpected IOException with stream: 2022-01-19 17:06:31.621  INFO 1336 --- [           main] org.neo4j.ogm.metadata.DomainInfo        : Starting Post-processing phase
+
+
+# Created at 2022-01-19T17:06:31.623
+Unexpected IOException with stream: 2022-01-19 17:06:31.622  INFO 1336 --- [           main] org.neo4j.ogm.metadata.DomainInfo        : Building byLabel lookup maps
+
+
+# Created at 2022-01-19T17:06:31.625
+Unexpected IOException with stream: 2022-01-19 17:06:31.624  INFO 1336 --- [           main] org.neo4j.ogm.metadata.DomainInfo        : Building interface class map for 7 classes
+
+
+# Created at 2022-01-19T17:06:31.646
+Unexpected IOException with stream: 2022-01-19 17:06:31.645  INFO 1336 --- [           main] org.neo4j.ogm.metadata.DomainInfo        : Post-processing complete
+
+
+# Created at 2022-01-19T17:06:31.923
+Unexpected IOException with stream: 2022-01-19 17:06:31.922  INFO 1336 --- [           main] o.s.d.neo4j.mapping.Neo4jMappingContext  : Neo4jMappingContext initialisation completed
+
+
+# Created at 2022-01-19T17:06:32.135
+Unexpected IOException with stream: 2022-01-19 17:06:32.134  INFO 1336 --- [           main] com.liuyuns.hello.LastApplicationTests   : Started LastApplicationTests in 4.705 seconds (JVM running for 7.556)
+
+
+# Created at 2022-01-19T17:06:32.172
+Unexpected IOException: 5,1,com.liuyuns.hello.LastApplicationTests,testgetall,null,null,null
+
+
+# Created at 2022-01-19T17:06:33.124
+Unexpected IOException with stream: 2022-01-19 17:06:33.123  INFO 1336 --- [           main] Driver                                   : Direct driver instance 1532644077 created for server address localhost:7687
+
+
+# Created at 2022-01-19T17:06:34.207
+Unexpected IOException with stream: Optional[relationShip(Id=1680, sta=en(Id=2249, name=XL Recordings, entity_hash=3), end=en(Id=1108, name=Beck, entity_hash=6))]
+
+# Created at 2022-01-19T17:06:34.207
+Unexpected IOException with stream: 
+
+
+# Created at 2022-01-19T17:06:34.214
+Unexpected IOException: 6,1,com.liuyuns.hello.LastApplicationTests,testgetall,null,null,null
+
+
+# Created at 2022-01-19T17:06:34.216
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.liuyuns.hello.LastApplicationTests,null,null,null
+
+
