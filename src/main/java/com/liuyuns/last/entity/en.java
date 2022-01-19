@@ -16,7 +16,7 @@ public class en implements Serializable {
 
     @Id
     @GeneratedValue
-    private long id;
+    private long Id;
 
     private String name;
 
